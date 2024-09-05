@@ -1,0 +1,40 @@
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  
+  position: sticky;
+  top: 0px;
+
+  width: 100vw;
+
+  padding: 10px 20px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #007fff;
+}
+
+.nav-container a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-container li{
+  display: inline;
+  padding: 10px 20px; 
+}
+
+.nav-container li:hover{
+  background-color: #0065cc;
+}
+
+.nav-container li:active{
+  background-color: #0065cc;
+}
