@@ -28,3 +28,13 @@
   height: 400px;
   border-radius: 50%;
 }
+
+.check-project{
+  position: absolute;
+
+  font-weight: 500;
+
+  color: black;
+  bottom: 10px;
+  right: 10px;
+}

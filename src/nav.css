@@ -13,6 +13,7 @@
   font-size: larger;
   font-weight: 400;
   background-color: #007fff;
+  z-index: 999;
 }
 
 .nav-name{
