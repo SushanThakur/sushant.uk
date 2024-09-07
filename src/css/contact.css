@@ -1,0 +1,12 @@
+.scroll-up{
+  position: absolute;
+
+  font-weight: 500;
+  padding: 10px 20px;
+
+  color: black;
+  bottom: -225vh;
+  right: 10px;
+  background-color: #cce5ff;
+  border-radius: 15px;
+}
