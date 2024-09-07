@@ -11,13 +11,17 @@
 
   padding: 10px 20px;
   font-size: larger;
-  font-weight: bold;
+  font-weight: 400;
   background-color: #007fff;
+}
+
+.nav-name{
+  font-weight: 700;
 }
 
 .nav-container a{
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 }
 
 .nav-container ul{
@@ -33,6 +37,7 @@
 
 .nav-container li:hover{
   background-color: #0065cc;
+  font-weight: 500;
 }
 
 .nav-container li:active{

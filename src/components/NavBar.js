@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 export default function NavBar() {
   return(
     <div className="nav-container">
-      <div><a href="#">Sushant</a></div>
+      <div className="nav-name"><a href="#">Sushant Thakur</a></div>
       <ul>
         <a href="#home"><li>Home</li></a>
         <a href="#projects"><li>Projects</li></a>
