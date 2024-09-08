@@ -64,3 +64,28 @@
   font-size: 14px;
   color:rgb(36, 36, 36);
 }
+
+@media only screen and (max-width: 600px) {
+
+  #projects{
+    text-align: center;
+  }
+
+  .projects-wrapper{
+    flex-direction: column;
+  }
+  .project-wrapper{
+    margin: 10px 20px;
+  }
+  .project-img{
+    width: 125px;
+  }
+  .project-title{
+    font-size: 25px;
+  }
+  .project-description{
+    font-size: 14px;
+    text-align: justify;
+  }
+
+}

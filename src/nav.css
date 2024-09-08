@@ -1,6 +1,7 @@
 .nav-container{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   justify-content: space-between;
   
@@ -31,6 +32,10 @@
   margin: 0px;
 }
 
+.mobile-view-nav{
+  display: none;
+}
+
 .nav-container li{
   display: inline;
   padding: 10px 20px; 
@@ -46,4 +51,56 @@
 
 .active{
   background-color: #0065cc;
+}
+
+.mobile-nav-options{
+  position: absolute;
+  display: none;
+  top: 20px;
+  right: 10px;
+  height: 40px;
+  transform: translateY(-75px);
+}
+
+#menu.invisible{
+  display: none;
+}
+#close.invisible{
+  display: none;
+}
+#menu.visible{
+  display: block;
+}
+#close.visible{
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nav-container{
+    height: 70px;
+  }
+  .nav-container li{
+    display: block;
+    color: white;
+  }
+  .desktop-view-nav{
+    display: none;
+  }
+  .mobile-view-nav{
+    display: flex;
+    flex-direction: column;
+    background: blue;
+    transform: translateY(125px);
+    width: 30%;
+  }
+  .mobile-nav-options{
+    display: block;
+  }
+  .mobile-nav-options:hover{
+    cursor: pointer;
+  }
+  #close{
+    display: none;
+  }
 }
