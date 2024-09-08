@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './nav.css';
 import './css/home.css';
+import './css/projects.css';
 import './css/contact.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
