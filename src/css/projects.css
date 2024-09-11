@@ -65,7 +65,16 @@
   color:rgb(36, 36, 36);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px){
+  .projects-wrapper{
+    flex-direction: column;
+  }
+  .project-wrapper{
+    margin: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
 
   #projects{
     text-align: center;
